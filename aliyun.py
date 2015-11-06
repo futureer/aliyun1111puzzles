@@ -1,21 +1,21 @@
 # -*- coding:utf-8 -*-
 '''
 solution's code for aliyun's 11`11 so-called "the most difficult red-packet to get ever ".
-author: Future@nku
+author: Future@nku 20151106
 '''
 
 
 def first_puzzle():
     sentence1 = '''of zit kggd zitkt qkt ygxk ortfzoeqs wqlatzwqssl qfr zvg
  ortfzoeqs yggzwqssl.fgv oy ngx vqfz zg hxz zitd of gft soft.piv dgfn lgsxz
-ogfl qkt zitkt?zohl:hstqlt eiqfut zif ygkd gy zit fxdwtk ngx utz.zit hkgu
+ogfl qkt zitkt?zohl:hstqlt eiqfut zit ygkd gy zit fxdwtk ngx utz.zit hkgu
 kqddtkl!'''
     alphas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     keybord = 'qwertyuiopasdfghjklzxcvbnm'
     result = sentence1
     for i in range(0, len(alphas)):
         result = result.replace(keybord[i], alphas[i])
-    print "first puzzle:\n", result
+    print "first puzzle:\n", result.lower()
 
 
 def second_puzzle():
