@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 '''
-solution's code for aliyun's 11`11 so-called "the most difficult red-packet to get ever. "
+solution's code for aliyun's 11`11 so-called "the most difficult red-packet to get ever ".
 author: Future@nku
 '''
 
